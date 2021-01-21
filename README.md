@@ -1,4 +1,4 @@
-# Eclipse Color Theme
+# Eclipse Color Editor Theme
 
 I basically ported Eclipse syntax highlighting color scheme to VS Code.
 I'm not affiliated with the Eclipse Foundation, and they have nothing to do with this extension.
