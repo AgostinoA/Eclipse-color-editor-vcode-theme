@@ -1,10 +1,10 @@
 {
 	"name": "Eclipse Color Theme",
 	"type": "light",
-	"colors": {
-		"editor.background": "#f5f5f5",
-		"editor.foreground": "#222320"
-	},
+	// "colors": {
+	// 	"editor.background": "#f5f5f5",
+	// 	"editor.foreground": "#222320"
+	// },
 	"tokenColors": [
 		{
 			"name": "Comments",
@@ -102,7 +102,16 @@
 		{
 			"name": "Types",
 			"scope": [
-				"entity.name.type",
+				"entity.name.type"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#e606c0"
+			}
+		},
+		{
+			"name": "Types",
+			"scope": [
 				"storage.type"
 			],
 			"settings": {
@@ -143,11 +152,12 @@
 		{
 			"name": "Object Members and Attributes",
 			"scope": [
+				"variable",
 				"variable.other.member",
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#333333",
+				"foreground": "#0000fb",
 				"fontStyle": ""
 			}
 		},
@@ -157,7 +167,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"fontStyle": "",
+				"fontStyle": "italic",
 				"foreground": "#000000"
 			}
 		},

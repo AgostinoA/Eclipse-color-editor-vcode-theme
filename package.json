@@ -1,9 +1,9 @@
 {
   "name": "eclipse-color-theme",
-  "displayName": "Eclipse Color Theme",
+  "displayName": "Eclipse Color Editor Theme",
   "description": "Syntax highlighting inspired by Eclipse",
   "version": "0.1.3",
-  "publisher": "roehling",
+  "publisher": "agostino-abbatecola",
   "license": "Apache-2.0",
   "engines": {
     "vscode": "^1.35.0"
@@ -14,22 +14,20 @@
   "contributes": {
     "themes": [
       {
-        "label": "Eclipse Color Theme",
+        "label": "Eclipse Color Editor Theme",
         "uiTheme": "vs",
         "path": "./themes/Eclipse Color Theme-color-theme.json"
       }
     ]
   },
   "bugs": {
-    "url": "https://github.com/roehling/vcode-eclipse-color-theme/issues"
+    "url": "https://github.com/AgostinoA/vcode-eclipse-color-theme-master/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/roehling/vcode-eclipse-color-theme.git"
+    "url": "https://github.com/AgostinoA/vcode-eclipse-color-theme-master"
   },
-  "__metadata": {
-    "id": "08e38fb5-7698-4e3f-af53-7f378d5660b2",
-    "publisherDisplayName": "Timo Röhling",
-    "publisherId": "4f7ee44c-fe59-444e-9e9f-5f10ef8e32a8"
+  "dependencies": {
+    "vsce": "^1.84.0"
   }
 }
