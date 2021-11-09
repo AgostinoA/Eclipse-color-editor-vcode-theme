@@ -1,15 +1,19 @@
 # Eclipse Color Editor Theme
-
+<br>
+<br>
+<br>
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eclipse-Luna-Logo.svg/1280px-Eclipse-Luna-Logo.svg.png" width="80%">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eclipse-Luna-Logo.svg/1280px-Eclipse-Luna-Logo.svg.png" width="60%">
 </p>
-
---
-
+<br>
+<br>
+<br>
 <p align="center">
   <img src="./.github/screen1.png" width="80%">
 </p>
-
+<br>
+<br>
+<br>
 I basically ported Eclipse syntax highlighting color scheme to VS Code.
 I'm not affiliated with the Eclipse Foundation, and they have nothing to do with this extension.
 
