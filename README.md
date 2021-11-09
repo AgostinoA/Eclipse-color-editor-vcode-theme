@@ -10,12 +10,6 @@ I'm not affiliated with the Eclipse Foundation, and they have nothing to do with
 I tested this extension with C++, Python, HTML, and XML. Some restrictions
 in the syntax highlighting API prevent me from colorizing certain elements the way I want (e.g. C++ class members).
 
-
-# Compile
-./node_modules/vsce/out/vsce package
-
-
-
 ## Installation via VS Code
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
@@ -23,3 +17,6 @@ in the syntax highlighting API prevent me from colorizing certain elements the w
 3. Click **Install** to install it
 4. Click **Reload** to reload the editor
 5. Code > Preferences > Color Theme > **Eclipse Theme**
+
+## Compile
+./node_modules/vsce/out/vsce package
