@@ -1,7 +1,10 @@
 # Eclipse Color Editor Theme
 
 <p align="center">
-  <img src="./images/icon.png" alt="Lukin Theme Logo" width="150">
+  <img src="./.github/screen2.jpg" alt="Lukin Theme Logo" width="150">
+</p>
+<p align="center">
+  <img src="./.github/screen1.png" alt="Lukin Theme Logo" width="150">
 </p>
 
 I basically ported Eclipse syntax highlighting color scheme to VS Code.
