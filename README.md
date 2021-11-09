@@ -22,4 +22,4 @@ in the syntax highlighting API prevent me from colorizing certain elements the w
 2. Search for `Eclipse Theme`
 3. Click **Install** to install it
 4. Click **Reload** to reload the editor
-5. Code > Preferences > Color Theme > **Eclipse Them**
+5. Code > Preferences > Color Theme > **Eclipse Theme**
