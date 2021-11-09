@@ -2,7 +2,7 @@
   "name": "eclipse-color-theme",
   "displayName": "Eclipse Color Editor Theme",
   "description": "Syntax highlighting inspired by Eclipse",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "agostino-abbatecola",
   "license": "Apache-2.0",
   "engines": {
