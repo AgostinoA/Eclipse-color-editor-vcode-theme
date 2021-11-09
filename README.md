@@ -16,10 +16,10 @@ in the syntax highlighting API prevent me from colorizing certain elements the w
 ## Installation via VS Code
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for `Eclipse Theme`
+2. Search for `Eclipse Color Editor Theme`
 3. Click **Install** to install it
 4. Click **Reload** to reload the editor
-5. Code > Preferences > Color Theme > **Eclipse Theme**
+5. Code > Preferences > Color Theme > **Eclipse Color Editor Theme**
 
 ## Compile
 ./node_modules/vsce/out/vsce package
