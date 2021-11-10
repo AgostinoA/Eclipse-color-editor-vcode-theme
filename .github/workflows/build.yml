@@ -29,12 +29,14 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: ./node_modules/vsce/out/vsce package
-    - name: Upload binaries to release
-      uses: svenstaro/upload-release-action@v2
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: /home/runner/work/vcode-eclipse-color-editor-theme/vcode-eclipse-color-editor-theme/eclipse-color-theme*.vsix
-        asset_name: eclipse-color-theme.vsix
-        tag: ${{ github.ref }}
-        overwrite: true
-        body: "Eclipse Color Editor Theme for VScode"
+    - run: ./node_modules/vsce/out/vsce login agostino-abbatecola
+    - run: ./node_modules/vsce/out/vsce publish
+#     - name: Upload binaries to release
+#       uses: svenstaro/upload-release-action@v2
+#       with:
+#         repo_token: ${{ secrets.GITHUB_TOKEN }}
+#         file: /home/runner/work/vcode-eclipse-color-editor-theme/vcode-eclipse-color-editor-theme/eclipse-color-theme*.vsix
+#         asset_name: eclipse-color-theme.vsix
+#         tag: ${{ github.ref }}
+#         overwrite: true
+#         body: "Eclipse Color Editor Theme for VScode"
