@@ -33,7 +33,7 @@ jobs:
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: /home/runner/work/vcode-eclipse-color-editor-theme/vcode-eclipse-color-editor-theme/*.vsix
+        file: /home/runner/work/vcode-eclipse-color-editor-theme/vcode-eclipse-color-editor-theme/eclipse-color-theme*
         asset_name: eclipse-color-theme.vsix
         tag: ${{ github.ref }}
         overwrite: true
