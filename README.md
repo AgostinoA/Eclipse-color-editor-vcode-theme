@@ -1,4 +1,7 @@
 # Eclipse Color Editor Theme
+
+[![Node.js CI](https://github.com/AgostinoA/Eclipse-color-editor-vcode-theme/actions/workflows/build.yml/badge.svg)](https://github.com/AgostinoA/Eclipse-color-editor-vcode-theme/actions/workflows/build.yml)
+
 <br>
 <br>
 <br>
