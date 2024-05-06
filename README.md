@@ -1,6 +1,9 @@
 # Eclipse Color Editor Theme
 <br>
-<br>
+
+<p align="center">
+  <img src="https://github.com/EgoAlpha/prompt-in-context-learning/raw/main/figures/hr.gif" width="80%">
+</p>
 <br>
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eclipse-Luna-Logo.svg/1280px-Eclipse-Luna-Logo.svg.png" width="60%">
